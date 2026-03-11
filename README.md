@@ -57,13 +57,18 @@ public class TestMyArrays {
 ```
 
 ## Coding Standards
-
-1. Follow the program specifications.
-2. Use clear and consistent indentation.
-3. Include JavaDoc comments for each method.
-4. Remove any auto-generated comments.
-5. Attribute yourself in the class-level JavaDoc (`@author`).
-6. Ensure output is user-friendly and easy to read.
+- Follow the program specifications exactly.
+- Use meaningful identifiers and follow Java naming conventions.
+- Remove all auto-generated comments and unused code.
+- Document code using [JavaDoc](https://www.baeldung.com/javadoc), including:
+   - Program/class description
+   - Attribution using the `@author` tag.
+- Comment only when necessary.
+- Format code cleanly and consistently
+   - Proper indentation
+   - Brace alignment
+   - Whitespace for readability
+- Ensure prompts and output are clear and properly formatted.
 
 ## Extension (Optional)
 
