@@ -1,6 +1,37 @@
 {
-    //setting to keep files synced to github (auto commit+push). doesn't work in devcontainer.json file for some reason, so have to keep it here *shrug*
-    "gitdoc.enabled": false, //change to true to auto commit+push!
-    "gitdoc.commitValidationLevel": "none",
-    "git.postCommitCommand": "push", //changes "Commit" button in source control tab to "Commit & Push"
+  "java.server.launchMode": "Standard",
+  "java.compile.nullAnalysis.mode": "disabled",
+
+  "editor.inlayHints.enabled": "off",
+  "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+
+  "files.exclude": {
+    "**/.assets": true,
+    "**/.devcontainer": true,
+    "**/.test": true,
+    "**/.vscode": true,
+    "**/.github": true,
+    "**/.gitignore": true
+  },
+
+  "git.autofetch": true,
+  "git.postCommitCommand": "push",
+
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.editor.enableAutoCompletions": false,
+  "chat.disableAIFeatures": true,
+
+  "extensions.ignoreRecommendations": true,
+  "redhat.telemetry.enabled": false,
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+
+  "java.project.sourcePaths": [
+    ".",
+    ".test"
+  ],
+  "java.project.referencedLibraries": [
+    ".test/**/*.jar"
+  ]
 }
