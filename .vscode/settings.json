@@ -2,6 +2,7 @@
   "java.server.launchMode": "Standard",
   "java.compile.nullAnalysis.mode": "disabled",
 
+  "editor.hover.enabled": false,
   "editor.inlayHints.enabled": "off",
   "editor.formatOnType": true,
   "editor.minimap.enabled": false,
@@ -13,7 +14,8 @@
     "**/.github": true,
     "**/.gitignore": true,
     "**/.test": true,
-    "**/.vscode": true
+    "**/.vscode": true,
+    "**/.classroom50.yaml": true
   },
 
   "git.autofetch": true,
